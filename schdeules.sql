@@ -24,8 +24,8 @@
      );
 
 -- 2. 일정 생성하기
-  INSERT INTO SCHDEULES(user_info_id, user_pw, title, content, modified_at, schdeul_date, created_at)
-  VALUES("kim97", "asdf1234", "Study", "Study and Focuse", CURRENT_TIMESTAMP, "2024-11-11", CURRENT_TIMESTAMP);
+  INSERT INTO SCHDEULES(user_info_id, user_pw, title, content, schdeul_date)
+  VALUES("kim97", "asdf1234", "Study", "Study and Focuse", "2024-11-11");
 
 -- 3. 전체 일정 조회하기
    SELECT title, modified_at FROM SCHDEULES order by modified_at desc;
