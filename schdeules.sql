@@ -12,7 +12,7 @@
       schdeul_date DATE,
       created_at TIMESTAMP DEFUALT CURRENT_TIMESTAMP,
       PRIMARY KEY (id),
-      FOREIGN KEY(user_user_id) REFERENCES USER_INFO(id)
+      FOREIGN KEY(user_info_id) REFERENCES USER_INFO(id)
     );
 --   2) 사용자 정보 테이블(USER_INFO)
      CREATE TABLE USER_INFO (
